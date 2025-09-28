@@ -25,7 +25,7 @@ typedef struct
 
 } flash_hw_t;
 
-#define FLASH ((flash_hw_t*)FLASH_BASE)
+#define flash_hw ((flash_hw_t*)FLASH_BASE)
 
 
 
