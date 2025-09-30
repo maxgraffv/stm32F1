@@ -19,17 +19,17 @@
 
 #define RCC_CFGR 0x04
 
-#define RCC_CFG_MCO 24 // [26:24]
-#define RCC_CFG_USBPRE 22
-#define RCC_CFG_PLLMUL 18 // [21:18]
-#define RCC_CFG_PLLXTPRE 17 
-#define RCC_CFG_PLLSRC 16 
-#define RCC_CFG_ADCPRE 14 // [15:14]
-#define RCC_CFG_PPRE2 11 // [13:11]
-#define RCC_CFG_PPRE1 8 // [10:8]
-#define RCC_CFG_HPRE 4 // [7:4]
-#define RCC_CFG_SWS 2 // [3:2]
-#define RCC_CFG_SW 0 // [1:0]
+#define RCC_CFGR_MCO 24 // [26:24]
+#define RCC_CFGR_USBPRE 22
+#define RCC_CFGR_PLLMUL 18 // [21:18]
+#define RCC_CFGR_PLLXTPRE 17 
+#define RCC_CFGR_PLLSRC 16 
+#define RCC_CFGR_ADCPRE 14 // [15:14]
+#define RCC_CFGR_PPRE2 11 // [13:11]
+#define RCC_CFGR_PPRE1 8 // [10:8]
+#define RCC_CFGR_HPRE 4 // [7:4]
+#define RCC_CFGR_SWS 2 // [3:2]
+#define RCC_CFGR_SW 0 // [1:0]
 
 
 
